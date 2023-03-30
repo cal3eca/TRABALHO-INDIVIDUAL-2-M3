@@ -23,7 +23,6 @@ FOREIGN KEY (empresa_id) REFERENCES empresa(id_empresa),
 FOREIGN KEY (id_tecnologia) REFERENCES tecnologia(tecnologia_id)
 );
 
-
 --- PREENCHENDO AS TABELAS ATRAVÉS DOS INSERTS
 INSERT INTO empresa (id_empresa, nome_empresa, data_cadastro, cnpj, telefone, email) VALUES
 (1, 'Google', '29.03.2023', '76.734.793/0001-34', '(11) 98573-7492', 'realgoogle@gmail.com'),
@@ -32,7 +31,6 @@ INSERT INTO empresa (id_empresa, nome_empresa, data_cadastro, cnpj, telefone, em
 (4, 'Facebook', '02.02.2023', '73.011.056/0004-72', '(18) 96665-5444', 'facebook@gmail.com'),
 (5, 'Amazon', '01.001.2023, ', '77.592.955/0001-00', '(83) 98352-6116', 'realamazom@gmail.com');
 
-
 INSERT INTO tecnologia (tecnologia_id, nome, area) VALUES
 (1, 'PowerBi', 'Vizualização de Dados'),
 (2, 'SQL', ' Banco de Dados'),
@@ -40,7 +38,6 @@ INSERT INTO tecnologia (tecnologia_id, nome, area) VALUES
 (4, 'Python Selenium', 'Automação'),
 (5, 'Java', 'Programação'),
 (6, 'Excel', 'Relatórios');
-
 
 --- ETAPA DE INSERTS -- DOS DOIS SEMESTRES --
 ---SENDO ESSE O PRIMEIRO ---
